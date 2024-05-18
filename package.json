@@ -1,0 +1,16 @@
+{
+  "name": "zenx",
+  "version": "1.0.1",
+  "description": "",
+  "main": "src/background.js",
+  "scripts": {
+    "format": "prettier --write src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist/zenx && cp -r src dist/zenx && cp manifest.json dist/zenx && cp -r images dist/zenx"
+  },
+  "author": "fenrirx",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
