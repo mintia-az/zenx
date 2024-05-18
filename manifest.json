@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ZenX",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Focus on the essence.",
   "icons": {
     "16": "images/icon16.png",
@@ -13,10 +13,10 @@
     "scripting"
   ],
   "host_permissions": [
-    "https://*.twitter.com/*"
+    "https://*.x.com/*"
   ],
   "background": {
-    "service_worker": "background.js",
+    "service_worker": "src/background.js",
     "type": "module"
   }
 }
